@@ -372,5 +372,16 @@
     .section-about-text h1{
         font-size: 2.2rem;
     }
+    .heading-text-container>h1{
+        color: white;
+        font-weight: 200;
+        border: 2px solid #fff;
+        margin-bottom: 0;
+        width: 100%;
+        font-size: 2rem;
+        max-width: 40rem;
+        padding: 2rem;
+    }
 }
+
 
