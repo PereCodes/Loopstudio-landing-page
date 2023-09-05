@@ -88,7 +88,7 @@
     margin-bottom: 0;
     width: 100%;
     font-size: 4rem;
-    max-width: 33rem;
+    max-width: 40rem;
     padding: 2rem;
 }
 .section-about-box{
@@ -185,12 +185,11 @@
 .page-footer{
     background-color: var(--Black);
 }
-
 .footer-nav ul, .footer-icon ul{
     list-style-type: none;
 }
-.footer-icon ul li{
-    padding: 0 1.2rem;
+.footer-nav ul, .footer-icon ul li{
+    text-align: center;
 }
 .footer-link{
     text-decoration: none;
@@ -341,6 +340,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   .footer-logo{
     margin-bottom: 2rem;
@@ -348,18 +348,18 @@
   .footer-nav ul{
     flex-direction: column;
     gap: 1.5rem;
-  }
+}
   .footer-link{
     font-size: 2rem;
-  }
+}
   .footer-icon ul{
     justify-content: center;
     margin-bottom: 1rem;
-  }
+}
   .footer-icon p{
     text-align: center;
     font-size: 1.2rem;
-  }
+}
 
 }
 
